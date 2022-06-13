@@ -5,8 +5,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: none;
     text-decoration: none;
+    
 }
-
 /* +++++++++++++++++++++++INDEX++++++++++++++++++++ */
 /* HEADER:::::::::::: */
 
@@ -40,6 +40,10 @@ h1 {
     list-style-type: none;
     text-decoration: overline;
     color: black
+}
+.menu a:hover{
+    font-size: 40px;
+    color: brown;
 }
 
 /* MAIN:::: */
