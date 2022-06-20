@@ -52,8 +52,8 @@ h1 {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    background-color: aquamarine;
-}
+    background-image: linear-gradient(to bottom, white, aquamarine 100%);
+    }
 
 .vidret {
     border-radius: 25px;
@@ -95,7 +95,7 @@ h1 {
 
 /* +++++++++++++++++++++++ PREMIOS ++++++++++++++++ */
 .mainPremios {
-    background-color: aquamarine;
+    background-image: linear-gradient(to bottom, white, aquamarine 100%);
 }
 
 .imgMejorCircuito {
@@ -170,7 +170,7 @@ h1 {
 
 /* +++++++++++++++++++++ CAF-INFORMES +++++++++++ */
 .mainCaf {
-    background-color: aquamarine;
+    background-image: linear-gradient(to bottom, white, aquamarine 100%);
 }
 
 .caf {
@@ -229,7 +229,7 @@ h1 {
 
 /* +++++++++++++++++++++ QUIENES SOMOS +++++++++++ */
 .mainQuienes {
-    background-color: aquamarine;
+    background-image: linear-gradient(to bottom, white, aquamarine 100%);
 }
 
 .sentiteParte {
@@ -403,7 +403,7 @@ h1 {
     align-items: center;
     display: flex;
     flex-direction: row;
-    background-color: rgb(5, 154, 223);
+    background-image: linear-gradient(to bottom, aquamarine, rgb(5, 154, 223));
     color: rgb(0, 0, 0);
     height: 50px;
     width: 100%;
