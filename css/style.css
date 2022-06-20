@@ -400,6 +400,7 @@ h1 {
 
 /* FOOTER:::::::::::::::: */
 .footer {
+    justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -425,7 +426,6 @@ h1 {
     flex-direction: row;
     text-decoration: none;
     list-style-type: none;
-    margin-left: 800px;
 }
 
 
