@@ -27,7 +27,7 @@
   
   .instagram {
     padding-right: 15px;
-    color: rgb(196, 0, 196);
+    color: $colorInstagram
     font-weight: bold;
   
     &:hover {
@@ -38,7 +38,7 @@
   
   .facebook {
     padding-right: 15px;
-    color: rgb(18, 18, 235);
+    color: $colorFacebook
     font-weight: bold;
   
     &:hover {
@@ -48,7 +48,7 @@
   }
   
   .whatsapp {
-    color: rgb(0, 116, 0);
+    color: $colorWhatsapp
     font-weight: bold;
   
     &:hover {
