@@ -1,0 +1,23 @@
+.mainPremios {
+    background-image: linear-gradient(to bottom, white, aquamarine 100%);
+  }
+  
+  .imgMejorCircuito {
+    display: inline;
+    width: 600px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border-color: aqua;
+  }
+  
+  .imgMejorTorneo, .imgMejorManiobra, .imgPilotoPromesa, .imgPilotoCorrecto, .imgPilotoRevelacion, .imgMejorPiloto {
+    display: inline;
+    width: 600px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 40px;
+    border-radius: 25px;
+    border-color: aqua;
+  }

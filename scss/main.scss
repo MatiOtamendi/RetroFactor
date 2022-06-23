@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  //VARIABLES
+  @import './secciones/variables/colores';
+ //SECCIONES
+  @import './secciones/index';
+  @import './secciones/caf-informes';
+  @import './secciones/categoriasHoy';
+  @import './secciones/categoriasRetro';
+  @import './secciones/contacto';
+  @import './secciones/premios';
+  @import './secciones/quienes_somos';
+  @import './secciones/mediaquerys';
+  @import './secciones/footer';
+
+  header a {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  h1 {
+    display: none;
+  }
+  
+  .logo {
+    height: 450px;
+    width: 100%;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    a {
+      list-style-type: none;
+      text-decoration: overline;
+      color: #20639b;
+  
+      &:hover {
+        font-size: 40px;
+        color: rgb(116, 64, 4);
+        transition: 0.5s;
+      }
+    }
+  }

@@ -1,0 +1,59 @@
+.footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom, aquamarine, rgb(5, 154, 223));
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    font-style: italic;
+  }
+  
+  .bottomImg {
+    height: 30px;
+    width: 200px;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-radius: 20px;
+  }
+  
+  .redes {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .instagram {
+    padding-right: 15px;
+    color: rgb(196, 0, 196);
+    font-weight: bold;
+  
+    &:hover {
+      font-size: 20px;
+      transition: 0.4s;
+    }
+  }
+  
+  .facebook {
+    padding-right: 15px;
+    color: rgb(18, 18, 235);
+    font-weight: bold;
+  
+    &:hover {
+      font-size: 20px;
+      transition: 0.4s;
+    }
+  }
+  
+  .whatsapp {
+    color: rgb(0, 116, 0);
+    font-weight: bold;
+  
+    &:hover {
+      font-size: 20px;
+      transition: 0.4s;
+    }
+  }
+  

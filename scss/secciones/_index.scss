@@ -1,0 +1,44 @@
+.grillaMainIndex {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    background-image: linear-gradient(to bottom, white 1%, aquamarine 99%);
+  }
+  
+  .vidret {
+    border-radius: 25px;
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border: solid;
+    border-color: red;
+  }
+  
+  .fotosIndex {
+    margin-left: 200px;
+  }
+  
+  .insca {
+    position: absolute;
+    transform: translate(925px, -180px);
+    border-radius: 30px;
+    border: dotted;
+  }
+  
+  .fotret {
+    border-radius: 50px;
+    width: 400px;
+    transform: translate(0px, 100px);
+    border: solid;
+    border-color: red;
+  }
+  
+  .fotoHoy {
+    border-radius: 50px;
+    margin-top: 150px;
+    height: 125px;
+    margin-left: 50px;
+    border: solid;
+    border-color: red;
+  }

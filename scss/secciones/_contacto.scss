@@ -1,0 +1,49 @@
+.mainContacto {
+    margin-top: 25px;
+    background-image: url(../bannerlargo.jpg);
+    background-size: contain;
+  }
+  
+  .form {
+    width: 500px;
+    height: 500px;
+    border: solid 2px;
+    margin-left: 450px;
+    background-color: rgba(5, 146, 202, 0.425);
+    border-radius: 25px;
+  }
+  
+  .impNombre, .impEmail {
+    margin-left: 165px;
+    border-radius: 7px;
+  }
+  
+  .textarea {
+    transform: translate(40px);
+    margin-left: 40px;
+    border-radius: 7px;
+  }
+  
+  .contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 30px;
+  }
+  
+  .submit {
+    transform: translate(40px);
+  }
+  
+  .h2email {
+    color: red;
+  }
+  
+  .eMail {
+    transform: translate(510px);
+    background-color: black;
+    display: inline-flex;
+    color: white;
+  }

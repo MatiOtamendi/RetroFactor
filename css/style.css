@@ -1,803 +1,468 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    list-style-type: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  text-decoration: none; }
 
-}
-
-/* +++++++++++++++++++++++INDEX++++++++++++++++++++ */
-/* HEADER:::::::::::: */
-
-header a {
-    text-decoration: none;
-    list-style-type: none;
-}
-
-h1 {
-    display: none;
-}
-
-.logo {
-    height: 450px;
-    width: 100%;
-}
-
-.menu {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-decoration: none;
-    font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.menu a {
-
-    list-style-type: none;
-    text-decoration: overline;
-    color: #20639b;
-}
-
-.menu a:hover {
-    font-size: 40px;
-    color: rgb(116, 64, 4);
-    transition: 0.5s;
-}
-
-/* MAIN:::: */
 .grillaMainIndex {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    background-image: linear-gradient(to bottom, white 1%, aquamarine 99%);
-}
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  background-image: linear-gradient(to bottom, white 1%, aquamarine 99%); }
 
 .vidret {
-    border-radius: 25px;
-    width: 550px;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    border: solid;
-    border-color: red;
-}
+  border-radius: 25px;
+  width: 550px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  border: solid;
+  border-color: red; }
 
 .fotosIndex {
-    margin-left: 200px;
-}
+  margin-left: 200px; }
 
 .insca {
-    position: absolute;
-    transform: translate(925px, -180px);
-    border-radius: 30px;
-    border: dotted;
-}
+  position: absolute;
+  transform: translate(925px, -180px);
+  border-radius: 30px;
+  border: dotted; }
 
 .fotret {
-    border-radius: 50px;
-    width: 400px;
-    transform: translate(0px, 100px);
-    border: solid;
-    border-color: red;
-}
+  border-radius: 50px;
+  width: 400px;
+  transform: translate(0px, 100px);
+  border: solid;
+  border-color: red; }
 
 .fotoHoy {
-    border-radius: 50px;
-    margin-top: 150px;
-    height: 125px;
-    margin-left: 50px;
-    border: solid;
-    border-color: red;
-}
+  border-radius: 50px;
+  margin-top: 150px;
+  height: 125px;
+  margin-left: 50px;
+  border: solid;
+  border-color: red; }
 
-/* +++++++++++++++++++++++ PREMIOS ++++++++++++++++ */
-.mainPremios {
-    background-image: linear-gradient(to bottom, white, aquamarine 100%);
-}
-
-.imgMejorCircuito {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 50px;
-    border-radius: 25px;
-    border-color: aqua;
-}
-
-.imgMejorTorneo {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 40px;
-    border-radius: 25px;
-    border-color: aqua;
-}
-
-.imgMejorManiobra {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 40px;
-    border-radius: 25px;
-    border-color: aqua;
-}
-
-.imgPilotoPromesa {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 40px;
-    border-radius: 25px;
-    border-color: aqua;
-}
-
-.imgPilotoCorrecto {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 40px;
-    border-radius: 25px;
-    border-color: aqua;
-}
-
-.imgPilotoRevelacion {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 40px;
-    border-radius: 25px;
-    border-color: aqua;
-}
-
-.imgMejorPiloto {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 40px;
-    border-radius: 25px;
-    border-color: aqua;
-}
-
-/* +++++++++++++++++++++ CAF-INFORMES +++++++++++ */
 .mainCaf {
-    background-image: linear-gradient(to bottom, white, aquamarine 100%);
-}
+  background-image: linear-gradient(to bottom, white, aquamarine 100%); }
 
 .caf {
-    color: rgb(255, 0, 0);
-}
+  color: red; }
 
 .parrafoCaf {
-    text-align: justify;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgba(13, 219, 255, 0.26);
-    font-style: oblique;
-}
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgba(13, 219, 255, 0.26);
+  font-style: oblique; }
 
-.f179 {
-    height: 100px;
-    width: 175px;
-    margin-left: 25px;
-}
+.f179, .transam, .transam2 {
+  height: 100px;
+  width: 175px;
+  margin-left: 25px; }
 
-.transam {
-    height: 100px;
-    width: 175px;
-    margin-left: 25px;
-}
-
-.transam2 {
-    height: 100px;
-    width: 175px;
-    margin-left: 25px;
-
-}
-
-.listainformes {
-    display: flex;
-    flex-direction: row;
-}
-
-.listainformes2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.listainformes3 {
-    display: flex;
-    flex-direction: row;
-}
+.listainformes, .listainformes2, .listainformes3 {
+  display: flex;
+  flex-direction: row; }
 
 .aviso {
+  margin-top: 100px;
+  font-size: 40px;
+  color: red;
+  background-color: aqua; }
 
-    margin-top: 100px;
-    font-size: 40px;
-    color: red;
-    background-color: aqua;
-}
+.fotosHoy {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-content: stretch;
+  margin-top: 30px;
+  justify-content: space-between;
+  justify-items: center;
+  row-gap: 50px;
+  background-color: aquamarine; }
 
-/* +++++++++++++++++++++ QUIENES SOMOS +++++++++++ */
-.mainQuienes {
-    background-image: linear-gradient(to bottom, white, aquamarine 100%);
-}
+.catTransam {
+  height: 150px;
+  width: 350px;
+  margin-left: 10px; }
 
-.sentiteParte {
-    width: 100%;
-    height: 100%;
-    padding-top: 5px;
+.catWec, .catF12022 {
+  height: 150px;
+  width: 350px; }
 
-}
+.catTnc3Hoy {
+  height: 150px;
+  width: 350px;
+  margin-left: 10px; }
 
-.speech {
-    font-size: 20px;
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+.catTa {
+  height: 150px;
+  width: 400px; }
 
-.queEsperas {
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red;
-}
+.catPickup {
+  height: 150px;
+  width: 350px; }
 
-/* +++++++++++++++++++++ CONTACTO +++++++++++ */
+.fotosRetro {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-content: stretch;
+  margin-top: 30px;
+  justify-content: space-between;
+  justify-items: center;
+  row-gap: 50px;
+  background-color: aquamarine; }
+
+.catF179 {
+  height: 150px;
+  width: 350px;
+  margin-left: 10px; }
+
+.catf3Retro, .catCitroen {
+  height: 150px;
+  width: 350px; }
+
+.catRuteros {
+  height: 150px;
+  width: 400px;
+  margin-left: 10px; }
+
+.catPolo, .catTnc3 {
+  height: 150px;
+  width: 350px; }
+
 .mainContacto {
-    margin-top: 25px;
-    background-image: url(../bannerlargo.jpg);
-    background-size: contain;
-}
+  margin-top: 25px;
+  background-image: url(../bannerlargo.jpg);
+  background-size: contain; }
 
 .form {
-    width: 500px;
-    height: 500px;
-    border: solid 2px;
-    margin-left: 450px;
-    background-color: rgba(5, 146, 202, 0.425);
-    border-radius: 25px;
-}
+  width: 500px;
+  height: 500px;
+  border: solid 2px;
+  margin-left: 450px;
+  background-color: rgba(5, 146, 202, 0.425);
+  border-radius: 25px; }
 
-.impNombre {
-    margin-left: 165px;
-    border-radius: 7px;
-}
-
-.impEmail {
-    margin-left: 165px;
-    border-radius: 7px;
-}
+.impNombre, .impEmail {
+  margin-left: 165px;
+  border-radius: 7px; }
 
 .textarea {
+  transform: translate(40px);
+  margin-left: 40px;
+  border-radius: 7px; }
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  list-style-type: none;
+  font-size: 30px; }
+
+.submit {
+  transform: translate(40px); }
+
+.h2email {
+  color: red; }
+
+.eMail {
+  transform: translate(510px);
+  background-color: black;
+  display: inline-flex;
+  color: white; }
+
+.mainPremios {
+  background-image: linear-gradient(to bottom, white, aquamarine 100%); }
+
+.imgMejorCircuito {
+  display: inline;
+  width: 600px;
+  height: 300px;
+  margin-left: 400px;
+  margin-top: 50px;
+  border-radius: 25px;
+  border-color: aqua; }
+
+.imgMejorTorneo, .imgMejorManiobra, .imgPilotoPromesa, .imgPilotoCorrecto, .imgPilotoRevelacion, .imgMejorPiloto {
+  display: inline;
+  width: 600px;
+  height: 300px;
+  margin-left: 400px;
+  margin-top: 40px;
+  border-radius: 25px;
+  border-color: aqua; }
+
+.mainQuienes {
+  background-image: linear-gradient(to bottom, white, aquamarine 100%); }
+
+.sentiteParte {
+  width: 100%;
+  height: 100%;
+  padding-top: 5px; }
+
+.speech {
+  font-size: 20px;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.queEsperas {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red; }
+
+@media (max-width: 400px) {
+  .logo {
+    height: 120px;
+    width: 95%; }
+  .menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .grillaMainIndex {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    background-color: aquamarine; }
+  .vidret {
+    border-radius: 25px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: solid;
+    border-color: red; }
+  .fotosIndex {
+    margin-left: 20px; }
+  .insca {
+    transform: translate(6px, 110px);
+    border-radius: 30px;
+    border: dotted; }
+  .fotret {
+    border-radius: 50px;
+    width: 300px;
+    border: solid;
+    border-color: red; }
+  .fotoHoy {
+    border-radius: 50px;
+    margin-top: 75px;
+    height: 100px;
+    margin-left: 35px;
+    border: solid;
+    border-color: red; }
+  .footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #059adf;
+    color: black;
+    height: 50px;
+    width: 100%;
+    font-style: italic; }
+  .redes {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 5px; }
+  .instagram {
+    padding-right: 15px;
+    color: #c400c4;
+    font-weight: bold; }
+  .facebook {
+    padding-right: 15px;
+    color: #1212eb;
+    font-weight: bold; }
+  .whatsapp {
+    color: #007400;
+    font-weight: bold; }
+  .mainPremios {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 100%; }
+  .imgMejorCircuito {
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border-color: aqua;
+    margin-left: 30px; }
+  .imgMejorTorneo, .imgMejorManiobra, .imgPilotoPromesa, .imgPilotoCorrecto, .imgPilotoRevelacion, .imgMejorPiloto {
+    display: inline;
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border-color: aqua;
+    margin-left: 30px; }
+  .listainformes, .listainformes2, .listainformes3 {
+    display: flex;
+    flex-direction: column; }
+  .f179, .transam, .transam2 {
+    height: 90px;
+    width: 150px; }
+  .mainContacto {
+    margin-top: 25px;
+    background-image: url(../bannerlargo.jpg);
+    background-size: 100%; }
+  .form {
+    width: 300px;
+    height: 300px;
+    border: solid 2px;
+    margin-left: 30px;
+    background-color: rgba(5, 146, 202, 0.425);
+    border-radius: 25px; }
+  .impNombre, .impEmail {
+    margin-left: 75px;
+    border-radius: 7px; }
+  .textarea {
     transform: translate(40px);
     margin-left: 40px;
     border-radius: 7px;
-}
-
-.contactos {
+    height: 150px;
+    width: 75%;
+    transform: translate(-1px, -10px); }
+  .submit {
+    transform: translate(130px, -11px); }
+  .fotosHoy {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 50px;
-    list-style-type: none;
-    font-size: 30px;
-
-}
-
-.submit {
-    transform: translate(40px);
-}
-
-.h2email {
-    color: red;
-}
-
-.eMail {
-    transform: translate(510px);
-    background-color: black;
-    display: inline-flex;
-    color: white;
-}
-
-/* +++++++++++++++++++++ CAT. RETRO +++++++++++ */
-.fotosRetro {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
     align-content: stretch;
     margin-top: 30px;
-    justify-content: space-between;
-    justify-items: center;
-    row-gap: 50px;
-    background-color: aquamarine;
-}
-
-.catF179 {
-    height: 150px;
-    width: 350px;
-    margin-left: 10px;
-}
-
-.catf3Retro {
-    height: 150px;
-    width: 350px;
-}
-
-.catCitroen {
-    height: 150px;
-    width: 350px;
-}
-
-.catRuteros {
-    height: 150px;
-    width: 400px;
-    margin-left: 10px;
-}
-
-.catPolo {
-    height: 150px;
-    width: 350px;
-}
-
-.catTnc3 {
-    height: 150px;
-    width: 350px;
-}
-
-/* +++++++++++++++++++++ CAT. HOY +++++++++++ */
-.fotosHoy {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    align-content: stretch;
-    margin-top: 30px;
-    justify-content: space-between;
-    justify-items: center;
-    row-gap: 50px;
-    background-color: aquamarine;
-}
-
-.catTransam {
-    height: 150px;
-    width: 350px;
-    margin-left: 10px;
-}
-
-.catWec {
-    height: 150px;
-    width: 350px;
-}
-
-.catF12022 {
-    height: 150px;
-    width: 350px;
-}
-
-.catTnc3Hoy {
-    height: 150px;
-    width: 350px;
-    margin-left: 10px;
-}
-
-.catTa {
-    height: 150px;
-    width: 400px;
-}
-
-.catPickup {
-    height: 150px;
-    width: 350px;
-}
-
-
-
-/* :::::::::::::::::::FOOTER:::::::::::::::: */
-.footer {
     justify-content: center;
+    justify-items: center;
+    align-content: center;
     align-items: center;
+    row-gap: 50px;
+    background-color: aquamarine; }
+  .catTransam {
+    height: 150px;
+    width: 300px;
+    margin-left: 10px; }
+  .catWec, .catF12022 {
+    height: 150px;
+    width: 300px; }
+  .catTnc3Hoy {
+    height: 150px;
+    width: 300px;
+    margin-left: 10px; }
+  .catTa {
+    height: 120px;
+    width: 300px; }
+  .catPickup {
+    height: 150px;
+    width: 300px; }
+  .fotosRetro {
     display: flex;
-    flex-direction: row;
-    background-image: linear-gradient(to bottom, aquamarine, rgb(5, 154, 223));
-    color: rgb(0, 0, 0);
-    height: 50px;
-    width: 100%;
-    font-style: italic;
-}
+    flex-direction: column;
+    align-content: stretch;
+    margin-top: 30px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 50px;
+    background-color: aquamarine; }
+  .catF179 {
+    height: 150px;
+    width: 300px;
+    margin-left: 10px; }
+  .catf3Retro {
+    height: 125px;
+    width: 300px; }
+  .catCitroen {
+    height: 150px;
+    width: 300px; }
+  .catRuteros {
+    height: 125px;
+    width: 300px;
+    margin-left: 10px; }
+  .catPolo {
+    height: 150px;
+    width: 300px; }
+  .catTnc3 {
+    height: 130px;
+    width: 300px; } }
 
+.footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(to bottom, aquamarine, #059adf);
+  color: black;
+  height: 50px;
+  width: 100%;
+  font-style: italic; }
 
 .bottomImg {
-    height: 30px;
-    width: 200px;
-    margin-top: 8px;
-    margin-left: 15px;
-    border-radius: 20px;
-
-}
+  height: 30px;
+  width: 200px;
+  margin-top: 8px;
+  margin-left: 15px;
+  border-radius: 20px; }
 
 .redes {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    list-style-type: none;
-}
-
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none; }
 
 .instagram {
-    padding-right: 15px;
-    color: rgb(196, 0, 196);
-    font-weight: bold;
-}
-
-.instagram:hover {
+  padding-right: 15px;
+  color: #c400c4;
+  font-weight: bold; }
+  .instagram:hover {
     font-size: 20px;
-    transition: 0.4s;
-}
+    transition: 0.4s; }
 
 .facebook {
-    padding-right: 15px;
-    color: rgb(18, 18, 235);
-    font-weight: bold;
-}
-
-.facebook:hover {
+  padding-right: 15px;
+  color: #1212eb;
+  font-weight: bold; }
+  .facebook:hover {
     font-size: 20px;
-    transition: 0.4s;
-}
+    transition: 0.4s; }
 
 .whatsapp {
-    color: rgb(0, 116, 0);
-    font-weight: bold;
-}
-
-.whatsapp:hover {
+  color: #007400;
+  font-weight: bold; }
+  .whatsapp:hover {
     font-size: 20px;
-    transition: 0.4s;
-}
+    transition: 0.4s; }
 
-/* +++++++++++++++MEDIA QUERY+++++++++++++++++++++ */
-@media (max-width: 400px) {
-    .logo {
-        height: 120px;
-        width: 95%;
-    }
+header a {
+  text-decoration: none;
+  list-style-type: none; }
 
-    .menu {
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        text-decoration: none;
-        font-size: 25px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+h1 {
+  display: none; }
 
-    .grillaMainIndex {
-        display: grid;
-        grid-template-columns: 100%;
-        align-items: center;
-        background-color: aquamarine;
-    }
+.logo {
+  height: 450px;
+  width: 100%; }
 
-    .vidret {
-        border-radius: 25px;
-        width: 300px;
-        margin-top: 30px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        border: solid;
-        border-color: red;
-    }
-
-    .fotosIndex {
-        margin-left: 20px;
-    }
-
-    .insca {
-        transform: translate(6px, 110px);
-        border-radius: 30px;
-        border: dotted;
-    }
-
-    .fotret {
-        border-radius: 50px;
-        width: 300px;
-        border: solid;
-        border-color: red;
-    }
-
-
-    .fotoHoy {
-        border-radius: 50px;
-        margin-top: 75px;
-        height: 100px;
-        margin-left: 35px;
-        border: solid;
-        border-color: red;
-    }
-
-    .footer {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(5, 154, 223);
-        color: rgb(0, 0, 0);
-        height: 50px;
-        width: 100%;
-        font-style: italic;
-    }
-
-
-    .redes {
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        list-style-type: none;
-        margin-left: 5px;
-    }
-
-
-    .instagram {
-        padding-right: 15px;
-        color: rgb(196, 0, 196);
-        font-weight: bold;
-    }
-
-    .facebook {
-        padding-right: 15px;
-        color: rgb(18, 18, 235);
-        font-weight: bold;
-    }
-
-    .whatsapp {
-        color: rgb(0, 116, 0);
-        font-weight: bold;
-    }
-
-    .mainPremios {
-        background-color: aquamarine;
-        display: grid;
-        grid-template-columns: 100%;
-    }
-
-    .imgMejorCircuito {
-        width: 300px;
-        height: 150px;
-        margin-top: 20px;
-        border-radius: 25px;
-        border-color: aqua;
-        margin-left: 30px;
-    }
-
-    .imgMejorTorneo {
-        display: inline;
-        width: 300px;
-        height: 150px;
-        margin-top: 20px;
-        border-radius: 25px;
-        border-color: aqua;
-        margin-left: 30px;
-    }
-
-    .imgMejorManiobra {
-        display: inline;
-        width: 300px;
-        height: 150px;
-        margin-top: 20px;
-        border-radius: 25px;
-        border-color: aqua;
-        margin-left: 30px;
-    }
-
-    .imgPilotoPromesa {
-        display: inline;
-        width: 300px;
-        height: 150px;
-        margin-top: 20px;
-        border-radius: 25px;
-        border-color: aqua;
-        margin-left: 30px;
-    }
-
-    .imgPilotoCorrecto {
-        display: inline;
-        width: 300px;
-        height: 150px;
-        margin-top: 20px;
-        border-radius: 25px;
-        border-color: aqua;
-        margin-left: 30px;
-    }
-
-    .imgPilotoRevelacion {
-        display: inline;
-        width: 300px;
-        height: 150px;
-        margin-top: 20px;
-        border-radius: 25px;
-        border-color: aqua;
-        margin-left: 30px;
-    }
-
-    .imgMejorPiloto {
-        display: inline;
-        width: 300px;
-        height: 150px;
-        margin-top: 20px;
-        border-radius: 25px;
-        border-color: aqua;
-        margin-left: 30px;
-    }
-
-    .listainformes {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .listainformes2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .listainformes3 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .f179 {
-        height: 90px;
-        width: 150px;
-
-    }
-
-    .transam {
-        height: 90px;
-        width: 150px;
-
-    }
-
-    .transam2 {
-        height: 90px;
-        width: 150px;
-
-    }
-
-    .mainContacto {
-        margin-top: 25px;
-        background-image: url(../bannerlargo.jpg);
-        background-size: 100%;
-    }
-
-    .form {
-        width: 300px;
-        height: 300px;
-        border: solid 2px;
-        margin-left: 30px;
-        background-color: rgba(5, 146, 202, 0.425);
-        border-radius: 25px;
-    }
-
-    .impNombre {
-        margin-left: 75px;
-        border-radius: 7px;
-    }
-
-    .impEmail {
-        margin-left: 75px;
-        border-radius: 7px;
-    }
-
-    .textarea {
-        transform: translate(40px);
-        margin-left: 40px;
-        border-radius: 7px;
-        height: 150px;
-        width: 75%;
-        transform: translate(-1px, -10px);
-    }
-
-    .submit {
-        transform: translate(130px, -11px);
-    }
-
-    .fotosHoy {
-        display: flex;
-        flex-direction: column;
-        align-content: stretch;
-        margin-top: 30px;
-        justify-content: center;
-        justify-items: center;
-        align-content: center;
-        align-items: center;
-        row-gap: 50px;
-        background-color: aquamarine;
-    }
-
-
-    .catTransam {
-        height: 150px;
-        width: 300px;
-        margin-left: 10px;
-    }
-
-    .catWec {
-        height: 150px;
-        width: 300px;
-    }
-
-    .catF12022 {
-        height: 150px;
-        width: 300px;
-    }
-
-    .catTnc3Hoy {
-        height: 150px;
-        width: 300px;
-        margin-left: 10px;
-    }
-
-    .catTa {
-        height: 120px;
-        width: 300px;
-    }
-
-    .catPickup {
-        height: 150px;
-        width: 300px;
-    }
-
-    .fotosRetro {
-        display: flex;
-        flex-direction: column;
-        align-content: stretch;
-        margin-top: 30px;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-        row-gap: 50px;
-        background-color: aquamarine;
-    }
-
-    .catF179 {
-        height: 150px;
-        width: 300px;
-        margin-left: 10px;
-    }
-
-    .catf3Retro {
-        height: 125px;
-        width: 300px;
-    }
-
-    .catCitroen {
-        height: 150px;
-        width: 300px;
-    }
-
-    .catRuteros {
-        height: 125px;
-        width: 300px;
-        margin-left: 10px;
-    }
-
-    .catPolo {
-        height: 150px;
-        width: 300px;
-    }
-
-    .catTnc3 {
-        height: 130px;
-        width: 300px;
-    }
-}
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .menu a {
+    list-style-type: none;
+    text-decoration: overline;
+    color: #20639b; }
+    .menu a:hover {
+      font-size: 40px;
+      color: #744004;
+      transition: 0.5s; }
