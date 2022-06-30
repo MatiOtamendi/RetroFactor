@@ -1,6 +1,6 @@
 
 .mainCaf {
-    background-image: linear-gradient(to bottom, white, aquamarine 100%);
+  @extend %colorFondoPrincipal;
   }
   
   .caf {
@@ -8,10 +8,11 @@
   }
   
   .parrafoCaf {
-    text-align: justify;
+    @include parrafoCAF(rgba(13, 219, 255, 0.26), black);
+    // text-align: justify;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgba(13, 219, 255, 0.26);
+    // background-color: rgba(13, 219, 255, 0.26);
     font-style: oblique;
   }
   

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    background-image: linear-gradient(to bottom, white 1%, aquamarine 99%);
+    @extend %colorFondoPrincipal;
   }
   
   .vidret {

@@ -1,0 +1,29 @@
+Cambios para el SEO:
+
+-Se modificó la etiqueta <title> en todos los html:
+         -Index: Retrofactor|Inicio.
+         -Premios: Retrofactor|Premios.
+         -CAF-Informes: Retrofactor|CAF-Informes.
+         -Quienes somos: Retrofactor|Quienes somos.
+         -Contacto: Retrofactor|Contacto.
+         -CategoriasHoy: Retrofactor|Categorias Hoy.
+         -CategoriasRetro: Retrofactor|Categorias Retro.
+
+-Se agregaron keywords a todos los html:
+         -index: "liga, virtual, campeonato, mod, mods, retro, sim racer, simu, rfactor, retrofactor"
+         -premios: "liga, virtual, premios, mejor piloto, mod, mods, retro, simu, rfactor"
+         -caf-informes: "informe, CAF, liga, virtual, campeonato, mod, mods, retro, simu, rfactor, retrofactor"
+         -quienes_somos: "quienes somos, liga, virtual, campeonato, mod, mods, retro, simu, rfactor, retrofactor"
+         -contacto: "contacto, liga, virtual, campeonato, mod, mods, retro, simu, rfactor, retrofactor"          
+         -categoriasRetro: "mod, mods, retro, simu, rfactor, tc, tn, cap,"
+         -categoriasHoy: "mod, mods, retro, hoy, simu, rfactor, tc, tn, wec, pickup, transam, f1"
+
+-Se agregó etiqueta <meta> con description a todos los html:
+         -index: "Liga de simuladores virtual, revivi el pasado y tambien disfruta el presente del deporte motor."
+         -premios: "Enterate de los premios otorgados por RetroFactor para nuestros pilotos."
+         -caf-informes: "Informate de los acontecimientos vuelta por vuelta de cada carrera disputada."
+         -quienes_somos: "Conocenos! Enterate quienes somos y porque somos la mejor liga virtual." 
+         -contacto: "Contactate con nosotros! ¿Qué esperas para ser parte de la historia?."
+         -categoriasRetro: "Enterate cuales son las categorias Retro disponibles!"
+         -categoriasHoy: "Enterate cuales son las categorias HOY (del presente) disponibles!"
+

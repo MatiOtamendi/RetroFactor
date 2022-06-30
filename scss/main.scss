@@ -8,7 +8,18 @@
 }
 
 //VARIABLES
-@import './secciones/variables/colores';
+@import './variables/colores';
+//MIXIN
+@mixin parrafoCAF($colorFondo, $colorLetra) {
+    text-align: justify;
+    background-color: $colorFondo;
+    color: $colorLetra;  
+}
+
+//EXTEND
+%colorFondoPrincipal{
+    background-image: linear-gradient(to bottom, white 1%, aquamarine 99%);
+}
 
 //SECCIONES
 @import './secciones/index';
@@ -20,6 +31,8 @@
 @import './secciones/quienes_somos';
 @import './secciones/mediaquerys';
 @import './secciones/footer';
+
+
 
 header a {
     text-decoration: none;

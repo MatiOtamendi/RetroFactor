@@ -1,5 +1,5 @@
 .mainPremios {
-    background-image: linear-gradient(to bottom, white, aquamarine 100%);
+  @extend %colorFondoPrincipal;
   }
   
   .imgMejorCircuito {
