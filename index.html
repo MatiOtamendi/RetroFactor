@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="liga, virtual, campeonato, mod, mods, retro, simu, sim racer, rfactor, retrofactor">
-    <meta name="description" content="Liga de simuladores virtual, revivi el pasado y tambien disfruta el presente del deporte motor.">
+    <meta name="description"
+        content="Liga de simuladores virtual, revivi el pasado y tambien disfruta el presente del deporte motor.">
     <!-- Link css -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut Icon" href="./logoRF2.JPG">
+    <link rel="shortcut Icon" href="./imagenes/logoRF2.JPG">
     <title>RetroFactor| Inicio</title>
 </head>
 
@@ -17,14 +18,14 @@
     <!-- HEADER::ENCABEZADO -->
     <header class="headerIndex">
         <div>
-            <img class="logo" src="./RETRO BANDERAS.jpeg" alt="logo">
+            <img class="logo" src="./imagenes/RetroPrincipal.png" alt="logo">
             <h1>INICIO</h1>
             <!-- MENU DE NAVEGACION -->
             <nav>
                 <!-- UNORDERER -->
                 <ul class="menu">
                     <!-- LIST ITEMS -->
-                    <li><a href="index.html">INICIO</a></li>
+                    <li><a class="inicio" href="index.html">INICIO</a></li>
                     <li><a href="premios.html">PREMIOS</a></li>
                     <li><a href="caf-informes.html">CAF - INFORMES</a></li>
                     <li><a href="quienes_somos.html">QUIENES SOMOS</a></li>
@@ -35,25 +36,30 @@
     </header>
     <!-- MAIN::PRINCIPAL -->
     <main class="grillaMainIndex">
-        <img class="insca" src="./INSC-ABIERTAS.JPG" alt="inscAbiertas">
-        <section> <video class="vidret" src="./WhatsApp Video 2022-05-24 at 8.32.50 AM.mp4" controls autoplay
-                muted></video></section>
+        <div class="video"> <video class="vidret" src="./imagenes/VideoINICIO.mp4" controls autoplay muted></video></div>
         <div class="fotosIndex">
-            <section> <a href="categoriasRetro.html"><img class="fotret" src="./RETRO CELESTEchico.jpeg" alt="">
-            </section>
-            <section> <a href="categoriasHoy.html"><img class="fotoHoy" src="./RETRO HOY chico.jpg" alt=""></section>
+            <a href="categoriasRetro.html"><img class="fotret" src="./imagenes/RETRO CELESTEchico.jpeg" alt=""></a>
+            <a href="categoriasHoy.html"><img class="fotoHoy" src="./imagenes/RETRO HOY chico.jpg" alt=""></a>
+        </div>
+        <br><br>
+        <h2 class="noticias">NOTICIAS</h2>
+        <div class="tn70Noticias">
+            <h3>El TN del 70 dió la vuelta a la manzana!</h3><img src="./imagenes/CitroenLasca.JPG" alt="citroLasca">
+            <button>VER MAS</button>
         </div>
     </main>
     <!-- FOOTER::PIE DE PAGINA -->
     <footer class="footer">
-            <ul class="redes">
-                <li class="instagram"><a class="instagram" href="https://www.instagram.com/retrofactorok/">INSTAGRAM</a>
-                </li>
-                <li class="facebook"><a class="facebook"
-                        href="https://www.facebook.com/RetroFactor-Radio-723340245080389">FACEBOOK</a></li>
-                <li class="whatsapp"><a class="whatsapp" href="https://wa.me/+5491155171525">WHATSAPP</a></li>
-            </ul>
+               <div class="redes">
+            <a class="imgInsta" href="https://www.instagram.com/retrofactorok/"> <img class="imgInsta"
+                    src="./imagenes/logoinstabueno.png" alt="logoInstagram"></a>
+            <a class="imgWhat" href="https://wa.me/+5491155171525"> <img class="imgWhat" src="./imagenes/logowhatsappbueno.png"
+                    alt="logoWhatsapp"></a>
+            <a class="imgFace" href="https://www.facebook.com/RetroFactor-Radio-723340245080389"> <img class="imgFace"
+                    src="./imagenes/logofacebook.png" alt="logoFacebook"></a>
+        </div>
     </footer>
+
 </body>
 
 </html>

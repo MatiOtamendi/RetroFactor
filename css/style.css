@@ -6,25 +6,28 @@
   list-style-type: none;
   text-decoration: none; }
 
-.grillaMainIndex, .mainCaf, .mainPremios {
-  background-image: linear-gradient(to bottom, white 1%, aquamarine 99%); }
+.grillaMainIndex, .mainCaf, .fotosHoy, .fotosRetro, .mainPremios, .mainQuienes {
+  background-image: linear-gradient(to bottom, black 1%, aquamarine 99%); }
 
-.grillaMainIndex {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  align-items: center; }
+.headerIndex {
+  background-color: black; }
+
+.video {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  padding-top: 30px; }
 
 .vidret {
   border-radius: 25px;
-  width: 550px;
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-bottom: 20px;
   border: solid;
   border-color: red; }
 
 .fotosIndex {
-  margin-left: 200px; }
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .insca {
   position: absolute;
@@ -34,21 +37,34 @@
 
 .fotret {
   border-radius: 50px;
-  width: 400px;
-  transform: translate(0px, 100px);
   border: solid;
-  border-color: red; }
+  border-color: red;
+  margin-right: 25px; }
 
 .fotoHoy {
   border-radius: 50px;
-  margin-top: 150px;
-  height: 125px;
-  margin-left: 50px;
   border: solid;
   border-color: red; }
 
+.noticias {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  color: #6b0000; }
+
+.tn70Noticias {
+  display: flex;
+  justify-content: center; }
+
+.mainCaf {
+  color: darkgray; }
+
+.aqui {
+  margin-left: 15px; }
+
 .caf {
-  color: red; }
+  color: red;
+  margin-left: 15px; }
 
 .parrafoCaf {
   text-align: justify;
@@ -56,7 +72,13 @@
   color: black;
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: oblique; }
+  font-style: oblique;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.informes {
+  margin-left: 15px;
+  color: black; }
 
 .f179, .transam, .transam2 {
   height: 100px;
@@ -65,7 +87,8 @@
 
 .listainformes, .listainformes2, .listainformes3 {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  color: black; }
 
 .aviso {
   margin-top: 100px;
@@ -77,11 +100,10 @@
   display: grid;
   grid-template-columns: 33% 33% 33%;
   align-content: stretch;
-  margin-top: 30px;
+  padding-top: 50px;
   justify-content: space-between;
   justify-items: center;
-  row-gap: 50px;
-  background-color: aquamarine; }
+  row-gap: 50px; }
 
 .catTransam {
   height: 150px;
@@ -109,11 +131,10 @@
   display: grid;
   grid-template-columns: 33% 33% 33%;
   align-content: stretch;
-  margin-top: 30px;
+  padding-top: 50px;
   justify-content: space-between;
   justify-items: center;
-  row-gap: 50px;
-  background-color: aquamarine; }
+  row-gap: 50px; }
 
 .catF179 {
   height: 150px;
@@ -134,15 +155,18 @@
   width: 350px; }
 
 .mainContacto {
-  margin-top: 25px;
-  background-image: url(../bannerlargo.jpg);
-  background-size: contain; }
+  background-image: url(../imagenes/tndelpasado.jpg);
+  background-size: cover;
+  width: 100%; }
+
+.consulta {
+  text-align: center; }
 
 .form {
   width: 500px;
   height: 500px;
   border: solid 2px;
-  margin-left: 450px;
+  margin-left: 50%;
   background-color: rgba(5, 146, 202, 0.425);
   border-radius: 25px; }
 
@@ -155,24 +179,12 @@
   margin-left: 40px;
   border-radius: 7px; }
 
-.contactos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 50px;
-  list-style-type: none;
-  font-size: 30px; }
-
 .submit {
   transform: translate(40px); }
 
-.h2email {
-  color: red; }
-
 .eMail {
-  transform: translate(510px);
+  text-align: center;
   background-color: black;
-  display: inline-flex;
   color: white; }
 
 .imgMejorCircuito {
@@ -193,9 +205,6 @@
   border-radius: 25px;
   border-color: aqua; }
 
-.mainQuienes {
-  background-image: linear-gradient(to bottom, white, aquamarine 100%); }
-
 .sentiteParte {
   width: 100%;
   height: 100%;
@@ -204,12 +213,15 @@
 .speech {
   font-size: 20px;
   text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgray;
+  padding: 15px; }
 
 .queEsperas {
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: red; }
+  font-size: 45px;
+  font-family: 'Faster One', cursive;
+  color: white;
+  padding-left: 15px; }
 
 @media (max-width: 400px) {
   .logo {
@@ -390,51 +402,42 @@
     width: 300px; } }
 
 .footer {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
   background-image: linear-gradient(to bottom, aquamarine, #059adf);
-  color: black;
-  height: 50px;
-  width: 100%;
-  font-style: italic; }
-
-.bottomImg {
-  height: 30px;
-  width: 200px;
-  margin-top: 8px;
-  margin-left: 15px;
-  border-radius: 20px; }
+  height: 100%;
+  width: 100%; }
 
 .redes {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  list-style-type: none; }
+  width: 100%;
+  height: 110%;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
 
-.instagram {
-  padding-right: 15px;
-  color: #c400c4;
-  font-weight: bold; }
-  .instagram:hover {
-    font-size: 20px;
-    transition: 0.4s; }
+.imgWhat {
+  height: 50px;
+  width: 55px; }
+  .imgWhat :hover {
+    transform: scale(1.5);
+    transition: 0.6s; }
 
-.facebook {
-  padding-right: 15px;
-  color: #1212eb;
-  font-weight: bold; }
-  .facebook:hover {
-    font-size: 20px;
-    transition: 0.4s; }
+.imgInsta {
+  height: 50px;
+  width: 55px;
+  margin-right: 50px; }
+  .imgInsta :hover {
+    transform: scale(1.5);
+    transition: 0.6s; }
 
-.whatsapp {
-  color: #007400;
-  font-weight: bold; }
-  .whatsapp:hover {
-    font-size: 20px;
-    transition: 0.4s; }
+.imgFace {
+  height: 50px;
+  width: 55px;
+  margin-left: 25px; }
+  .imgFace :hover {
+    transform: scale(1.5);
+    transition: 0.6s; }
+
+header {
+  background-color: black; }
 
 header a {
   text-decoration: none;
@@ -444,8 +447,9 @@ h1 {
   display: none; }
 
 .logo {
-  height: 450px;
-  width: 100%; }
+  height: 100%;
+  width: 100%;
+  background-color: black; }
 
 .menu {
   list-style-type: none;
@@ -454,12 +458,27 @@ h1 {
   justify-content: space-around;
   text-decoration: none;
   font-size: 35px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black; }
+  .menu .inicio {
+    color: yellow; }
+  .menu .premios {
+    color: yellow; }
+  .menu .caf {
+    color: yellow; }
+  .menu .quienes {
+    color: yellow; }
+  .menu .contacto {
+    color: yellow; }
   .menu a {
     list-style-type: none;
     text-decoration: overline;
-    color: #20639b; }
+    color: #20639b;
+    background-color: black; }
     .menu a:hover {
       font-size: 40px;
-      color: #744004;
-      transition: 0.5s; }
+      color: red;
+      transition: 0.5s;
+      background-color: black; }
+    .menu a:active {
+      text-decoration-color: bisque; }

@@ -2,11 +2,11 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     align-content: stretch;
-    margin-top: 30px;
+    padding-top: 50px;
     justify-content: space-between;
     justify-items: center;
     row-gap: 50px;
-    background-color: aquamarine;
+    @extend %colorFondoPrincipal;
   }
   
   .catF179 {

@@ -1,21 +1,29 @@
 
 .mainCaf {
   @extend %colorFondoPrincipal;
+  color: darkgray;
   }
-  
+  .aqui{
+    margin-left: 15px;
+  }
   .caf {
     color: rgb(255, 0, 0);
+    margin-left: 15px;
   }
   
   .parrafoCaf {
     @include parrafoCAF(rgba(13, 219, 255, 0.26), black);
-    // text-align: justify;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    // background-color: rgba(13, 219, 255, 0.26);
     font-style: oblique;
+    margin-left: 15px;
+    margin-right: 15px;
   }
-  
+  .informes{
+    margin-left: 15px;
+    color: black;
+  }
+
   .f179, .transam, .transam2 {
     height: 100px;
     width: 175px;
@@ -25,6 +33,7 @@
   .listainformes, .listainformes2, .listainformes3 {
     display: flex;
     flex-direction: row;
+    color: black;
   }
   
   .aviso {

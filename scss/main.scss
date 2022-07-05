@@ -18,7 +18,7 @@
 
 //EXTEND
 %colorFondoPrincipal{
-    background-image: linear-gradient(to bottom, white 1%, aquamarine 99%);
+    background-image: linear-gradient(to bottom, black 1%, aquamarine 99%);
 }
 
 //SECCIONES
@@ -33,19 +33,22 @@
 @import './secciones/footer';
 
 
-
+header{
+    background-color: black;
+}
 header a {
     text-decoration: none;
     list-style-type: none;
-}
+   }
 
 h1 {
     display: none;
 }
 
 .logo {
-    height: 450px;
+    height: 100%;
     width: 100%;
+    background-color: black;
 }
 
 .menu {
@@ -56,16 +59,41 @@ h1 {
     text-decoration: none;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    background-color: black;
+    
+    .inicio{
+        color: yellow;
+    }
+    .premios{
+        color: yellow;
+    }
+    .caf{
+        color: yellow;
+    }
+    .quienes{
+        color: yellow;
+    }
+    .contacto{
+        color: yellow;
+    }
     a {
+        
         list-style-type: none;
         text-decoration: overline;
         color: $colorMenuPrincipal;
-
-        &:hover {
+        background-color: black;
+        
+     
+        &:hover{
             font-size: 40px;
-            color: rgb(116, 64, 4);
+            color: rgb(255, 0, 0);
             transition: 0.5s;
+            background-color: black;
+        }
+
+        &:active{
+            text-decoration-color: bisque;
         }
     }
 }
+

@@ -1,44 +1,63 @@
 .grillaMainIndex {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    @extend %colorFondoPrincipal;
-  }
-  
-  .vidret {
-    border-radius: 25px;
-    width: 550px;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    border: solid;
-    border-color: red;
-  }
-  
-  .fotosIndex {
-    margin-left: 200px;
-  }
-  
-  .insca {
-    position: absolute;
-    transform: translate(925px, -180px);
-    border-radius: 30px;
-    border: dotted;
-  }
-  
-  .fotret {
-    border-radius: 50px;
-    width: 400px;
-    transform: translate(0px, 100px);
-    border: solid;
-    border-color: red;
-  }
-  
-  .fotoHoy {
-    border-radius: 50px;
-    margin-top: 150px;
-    height: 125px;
-    margin-left: 50px;
-    border: solid;
-    border-color: red;
-  }
+  @extend %colorFondoPrincipal;
+}
+
+.headerIndex {
+  background-color: black;
+}
+
+.video {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.vidret {
+  border-radius: 25px;
+  border: solid;
+  border-color: red;
+}
+
+.fotosIndex {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.insca {
+  position: absolute;
+  transform: translate(925px, -180px);
+  border-radius: 30px;
+  border: dotted;
+}
+
+.fotret {
+  border-radius: 50px;
+  border: solid;
+  border-color: red;
+  margin-right: 25px;
+
+
+}
+
+.fotoHoy {
+  border-radius: 50px;
+  border: solid;
+  border-color: red;
+
+}
+
+.noticias {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  color: rgb(107, 0, 0);
+
+}
+
+.tn70Noticias {
+  display: flex;
+  justify-content: center;
+}
