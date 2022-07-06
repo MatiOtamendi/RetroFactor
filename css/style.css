@@ -199,23 +199,17 @@
   background-color: black;
   color: white; }
 
-.imgMejorCircuito {
-  display: inline;
-  width: 600px;
-  height: 300px;
-  margin-left: 400px;
-  margin-top: 50px;
-  border-radius: 25px;
-  border-color: aqua; }
+.mainPremios {
+  width: 100%; }
 
-.imgMejorTorneo, .imgMejorManiobra, .imgPilotoPromesa, .imgPilotoCorrecto, .imgPilotoRevelacion, .imgMejorPiloto {
-  display: inline;
-  width: 600px;
-  height: 300px;
-  margin-left: 400px;
-  margin-top: 40px;
-  border-radius: 25px;
-  border-color: aqua; }
+.pMejor {
+  text-align: center;
+  font-size: 50px;
+  color: #b40000;
+  font-weight: bold; }
+
+.bodyPremios {
+  background-color: black; }
 
 .sentiteParte {
   width: 100%;

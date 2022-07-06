@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut Icon" href="./imagenes/logoRF2.JPG">
     <title>RetroFactor| Premios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bodyPremios">
     <!-- HEADER::ENCABEZADO -->
     <header>
         <div>
@@ -35,25 +37,55 @@
     </header>
     <!-- MAIN::PRINCIPAL -->
     <main class="mainPremios">
-
-        <section class="section1"><img class="imgMejorCircuito" src="./imagenes/mejorCircuito2.JPG" alt=""></section>
-        <section class="section2"><img class="imgMejorTorneo" src="./imagenes/mejorTorneo2.JPG" alt=""></section>
-        <section class="section3"><img class="imgMejorManiobra" src="./imagenes/mejorManiobra.JPG" alt=""></section>
-        <section class="section4"><img class="imgPilotoPromesa" src="./imagenes/pilotoPromesa.JPG" alt=""></section>
-        <section class="section5"><img class="imgPilotoCorrecto" src="./imagenes/pilotoMasCorrecto.JPG" alt=""></section>
-        <section class="section6"><img class="imgPilotoRevelacion" src="./imagenes/pilotoRevelacion.JPG" alt=""></section>
-        <section class="section7"><img class="imgMejorPiloto" src="./imagenes/pilotoDelAño.JPG" alt=""></section>
-
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/mejorCircuito2.JPG" class="d-block w-100" alt="mejorCircuito">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/mejorTorneo2.JPG" class="d-block w-100" alt="mejorTorneo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/mejorManiobra.JPG" class="d-block w-100" alt="mejorManiobra">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/pilotoPromesa.JPG" class="d-block w-100" alt="pilotoPromesa">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/pilotoMasCorrecto.JPG" class="d-block w-100" alt="pilotoCorrecto">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/pilotoRevelacion.JPG" class="d-block w-100" alt="pilotoRevelacion">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/pilotoDelAño.JPG" class="d-block w-100" alt="pilotoDelAño">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </main>
-   <!-- FOOTER::PIE DE PAGINA -->
-   <footer class="footer">
-    <div class="redes">
-        <a class="imgInsta" href="https://www.instagram.com/retrofactorok/"> <img class="imgInsta"
-                src="./imagenes/logoinstabueno.png" alt="logoInstagram"></a>
-        <a class="imgWhat" href="https://wa.me/+5491155171525"> <img class="imgWhat" src="./imagenes/logowhatsappbueno.png"
-                alt="logoWhatsapp"></a>
-        <a class="imgFace" href="https://www.facebook.com/RetroFactor-Radio-723340245080389"> <img class="imgFace"
-                src="./imagenes/logofacebook.png" alt="logoFacebook"></a>
-    </div>
-</footer>
+
+    <!-- FOOTER::PIE DE PAGINA -->
+    <footer class="footer">
+        <div class="redes">
+            <a class="imgInsta" href="https://www.instagram.com/retrofactorok/"> <img class="imgInsta"
+                    src="./imagenes/logoinstabueno.png" alt="logoInstagram"></a>
+            <a class="imgWhat" href="https://wa.me/+5491155171525"> <img class="imgWhat"
+                    src="./imagenes/logowhatsappbueno.png" alt="logoWhatsapp"></a>
+            <a class="imgFace" href="https://www.facebook.com/RetroFactor-Radio-723340245080389"> <img class="imgFace"
+                    src="./imagenes/logofacebook.png" alt="logoFacebook"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>

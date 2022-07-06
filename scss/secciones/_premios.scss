@@ -1,23 +1,13 @@
 .mainPremios {
   @extend %colorFondoPrincipal;
-  }
-
-  .imgMejorCircuito {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 50px;
-    border-radius: 25px;
-    border-color: aqua;
-  }
-  
-  .imgMejorTorneo, .imgMejorManiobra, .imgPilotoPromesa, .imgPilotoCorrecto, .imgPilotoRevelacion, .imgMejorPiloto {
-    display: inline;
-    width: 600px;
-    height: 300px;
-    margin-left: 400px;
-    margin-top: 40px;
-    border-radius: 25px;
-    border-color: aqua;
-  }
+  width: 100%;
+    }
+    .pMejor{
+      text-align: center;
+      font-size: 50px;
+      color: rgb(180, 0, 0);
+      font-weight: bold;
+    }
+    .bodyPremios{
+      background-color: black;
+    }
