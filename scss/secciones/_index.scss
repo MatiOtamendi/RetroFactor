@@ -1,5 +1,6 @@
 .grillaMainIndex {
   @extend %colorFondoPrincipal;
+  padding-bottom: 25px;
 }
 
 .headerIndex {
@@ -66,16 +67,71 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 75px;
   color: rgb(107, 0, 0);
+  box-shadow: 0 5px 10px #000;
+  letter-spacing: 5px;
+  border-top: dotted #000;
 
 }
 
 
 .tn70Noticias {
-  padding-left: 10%;
+  width: 400px;
+  margin-left: 10%;
   text-align: justify;
+  box-shadow: 0 5px 10px #000;
+  overflow: hidden;
+  background-color: #aaa;
+  border-radius: 5px;
 }
 
 .transamNoticias {
-  padding-left: 60%;
+  width: 450px;
+  margin-left: 60%;
   text-align: justify;
+  box-shadow: 0 5px 10px #000;
+  overflow: hidden;
+  background-color: #aaa;
+  border-radius: 5px;
+}
+
+.lascaNoticias {
+  height: 100%;
+  width: 100%;
+}
+
+.chivoSoto {
+  height: 100%;
+  width: 100%;
+}
+
+.f179Noticias {
+  width: 400px;
+  margin-left: 10%;
+  text-align: justify;
+  box-shadow: 0 5px 10px #000;
+  overflow: hidden;
+  background-color: #aaa;
+  border-radius: 5px;
+}
+
+.poliNoticias {
+  height: 100%;
+  width: 100%;
+
+}
+
+.f3Noticias {
+  width: 400px;
+  margin-left: 60%;
+  text-align: justify;
+  box-shadow: 0 5px 10px #000;
+  overflow: hidden;
+  background-color: #aaa;
+  border-radius: 5px;
+}
+
+.f3Retro {
+  height: 100%;
+  width: 100%;
+
 }
