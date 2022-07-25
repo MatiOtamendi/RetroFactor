@@ -215,6 +215,10 @@
   height: 150px;
   width: 350px; }
 
+.mainContacto {
+  background-image: url("../imagenes/tndelpasado.jpg");
+  background-size: cover; }
+
 .consulta {
   text-align: center;
   color: bisque;
